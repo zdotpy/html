@@ -1,56 +1,32 @@
 <html>
-    <head>
-        <title>my first html</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    </head>
-    <body>
-        <div class="container p-3 my-3 bg-dark text-white">
-            <p class="red-bg">welcome home</p>
-        </div>
-        
-        <h1 id="header">welcome home</h1>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
-        <br>
-        <form>
-            <input type="text" value="welcome home" />
-            <input type="password" id="pass"/>
-            <input type="checkbox" />
-            <input type="button" value="show/hide password" onclick="showPassword()">
-        </form>
-        <script>
-           function showPassword(){
-            pwdElm = document.getElementById("pass")
-            if(pwdElm.type === "text"){
-                pwdElm.type="password"
-            }else{
-                pwdElm.type="text"
-            }
-           }
-        </script>
-        <div >
-            <form>
-                <input type="text" value="welcome home" />
-                <input type="password" />
-                <input type="checkbox" />
-                <input type="button" value="save">
-            </form>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
-        <div class="alert alert-success">
-            <strong>Success!</strong> Indicates a successful or positive action.
-          </div>
-        </div>
-        <div class="myclass">
-            <h1>Bootstrap Tutorial</h1>
-            <p>Bootstrap is the most popular HTML, CSS...</p>
-          </div>
-    </body>
-    <style>
-        .red-bg{background-color: red;padding:15px}
-        #header{color:blueviolet}
-        .myclass{
-            padding:50px;
-            background-color:black;
-            color:white
-        }
-    </style>
+
+<head>
+    <title>tenes
+    </title>
+</head>
+
+<body>
+    
+
+<style>
+    body {
+        background-image: url('https://store-images.s-microsoft.com/image/apps.16480.13656678855925393.22ab9b41-5579-449c-81e5-ff46ea0e30b6.e2c16719-b19e-47b3-8f88-fb21ac9d6bb0');
+    }
+</style>
+    
+
+    <h1 style="text-align:center">tens.com </h1>
+    <p id="demo" style="text-align:center"></p>
+
+
+
+    <script>
+        setInterval(function () {
+            document.getElementById('demo').innerHTML = Date()
+        }, 1000)
+    </script>
+
+
+</body>
+
 </html>
